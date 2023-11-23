@@ -79,7 +79,7 @@ def app():
     row1, row2 = st.columns([0.81, 0.19])
     with row1:
         st.write('## Otimizador Carteira')
-        st.write('Essa área foi construída usando como referência dados de retorno do portifólio calculado durante 6 meses históricos, para que ssim, e de uma maneira geral, possa ter uma otimização da carteira frente as suas classes.')
+        st.write('Essa área foi construída usando como referência dados de retorno do portifólio calculado durante 6 meses históricos, para que de uma maneira geral, possamos ter uma otimização da carteira frente as suas classes.')
         st.markdown(''':red[Por Favor, escolha um ativo por vez. Múltipla escolha não suportada na versão de testes.]''')
     with row2:
         option = st.selectbox('Selecione o IDCode', (data['id']))

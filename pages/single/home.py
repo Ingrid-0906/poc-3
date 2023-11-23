@@ -17,7 +17,7 @@ def app():
     
     with col1:
         st.write('## Bem Vindo, Administrador!')
-        st.write('Aqui podemos visualizar as carteiras e suas respectivas posições atuais baseadas')
+        st.write('Aqui podemos visualizar as carteiras e suas respectivas posições atuais')
         
         kpi1, kpi2, kpi3 = st.columns(3)
         with kpi1:

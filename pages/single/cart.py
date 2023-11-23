@@ -82,7 +82,7 @@ def app():
             with tab0:
                 index = 0
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -96,7 +96,7 @@ def app():
                 index = 1
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -110,7 +110,7 @@ def app():
                 index = 2
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -124,7 +124,7 @@ def app():
                 index = 3
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -138,7 +138,7 @@ def app():
                 index = 4
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -152,7 +152,7 @@ def app():
                 index = 5
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -166,7 +166,7 @@ def app():
                 index = 6
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -180,7 +180,7 @@ def app():
                 index = 7
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -194,7 +194,7 @@ def app():
                 index = 8
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -208,7 +208,7 @@ def app():
                 index = 9
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]
@@ -222,7 +222,7 @@ def app():
                 index = 10
                 
                 if (len(DATA['data'][x][index][tabs[index]]) == 1) and (np.nan in DATA['data'][x][index][tabs[index]]):
-                    st.write(f'Não foi encontrado nenhum produto associato com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mas detalhes.')
+                    st.write(f'Não foi encontrado nenhum produto associado com a classe de {tabs[index]} nos últimos 6 meses históricos. Por favor, verifique com o setor de dados para mais detalhes.')
                     pass
                 else:
                     TB = tabs[index]

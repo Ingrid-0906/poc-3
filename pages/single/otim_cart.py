@@ -120,7 +120,7 @@ def app():
                 i  = y + half
                 with col2[y]:
                     st.metric(tick[i], weight[tick[i]].values[0], ips[tick[i]].values[0])
-                    ids[i] = st.checkbox('abilitar', key=ids[i])
+                    ids[i] = st.checkbox('habilitar', key=ids[i])
                     valor[i] = range_boundary(title=tick[i], min=bands['min'].iloc[i], max=bands['max'].iloc[i], show=ids[i])
                     if ids[i]:
                         st.session_state.disabled = False

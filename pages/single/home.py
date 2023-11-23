@@ -100,6 +100,7 @@ def app():
                     
                     fig = px.bar(data_chart, x=data_chart.index, y=data_chart['val'])
                     fig.update_traces(marker_color=data_chart["Color"])
+                    fig.update_layout(xaxis_title="",yaxis_title="Faixas (p.p)",)
                     st.plotly_chart(fig, use_container_width=True)
                     
                     st.write('##### IPS Allocation')

@@ -80,7 +80,7 @@ def app():
     with row1:
         st.write('## Otimizador Carteira')
         st.write('Essa área foi construída usando como referência dados de retorno do portifólio calculado durante 6 meses históricos, para que ssim, e de uma maneira geral, possa ter uma otimização da carteira frente as suas classes.')
-
+        st.write('Por Favor, escolha um ativo por vez. Múltipla escolha não supoortada nessa versão de testes.')
     with row2:
         option = st.selectbox('Selecione o IDCode', (data['id']))
     
@@ -109,7 +109,7 @@ def app():
             for i, _ in enumerate(col1):
                 with col1[i]:
                     st.metric(tick[i], weight[tick[i]].values[0], ips[tick[i]].values[0])
-                    ids[i] = st.checkbox('abilitar', key=ids[i])
+                    ids[i] = st.checkbox('Habilitar', key=ids[i])
                     valor[i] = range_boundary(title=tick[i], min=bands['min'].iloc[i], max=bands['max'].iloc[i], show=ids[i])
                     if ids[i]:
                         st.session_state.disabled = False

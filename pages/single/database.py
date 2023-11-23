@@ -86,7 +86,6 @@ class DATABASE():
             HY_current.insert(0, 'pl', pl_actual.values[0])
             posicao_hoje['hoje'].append(HY_current.reset_index(drop='index'))
             
-        print(posicao_hoje)
         return posicao_hoje
 
     def getAtivos(self, path_data):

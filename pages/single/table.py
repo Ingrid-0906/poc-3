@@ -24,7 +24,7 @@ class tableHome():
             'Tesouro Direto':'Tesouro Direto'
         }
 
-    def optimize_portfolio(e_r, mat_cov, n_ativos):
+    def optimize_portfolio(self, e_r, mat_cov, n_ativos):
         """
             Cria a carteira otimizada escolhendo as posições que mantem ou supera em retorno e miniminiza o risco da carteira toda.
             
@@ -68,7 +68,7 @@ class tableHome():
         vol_otimo = port_vol(otim_sharpe['x'])
         return peso_otimo, ret_otimo, vol_otimo
 
-    def optimize_portfolio_min(e_r, mat_cov, n_ativos):
+    def optimize_portfolio_min(self, e_r, mat_cov, n_ativos):
         """
             Cria a carteira otimizada escolhendo as posições que mantem ou supera em retorno e miniminiza o risco da carteira toda.
             O ponto de otimização sempre é igual, devido a base ser mutável em fator diário.
